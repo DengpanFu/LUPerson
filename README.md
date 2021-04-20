@@ -36,3 +36,15 @@ For MGN with ResNet101:
 | CUHK03-L | 75.98/86.73 | 75.86/84.07 | - |
 
 **The numbers are in the format of `without RR`/`with RR`**
+
+
+## Citation
+If you find this code useful for your research, please cite our paper.
+```
+@article{fu2020unsupervised,
+  title={Unsupervised Pre-training for Person Re-identification},
+  author={Fu, Dengpan and Chen, Dongdong and Bao, Jianmin and Yang, Hao and Yuan, Lu and Zhang, Lei and Li, Houqiang and Chen, Dong},
+  journal={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2021}
+}
+```
