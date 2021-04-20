@@ -1,0 +1,24 @@
+_BASE_: "../Base-MGN.yml"
+
+MODEL:
+  BACKBONE:
+    WITH_IBN: False
+    EXTRA_BN: True
+  PIXEL_MEAN: [83.022, 77.974, 80.642]
+  PIXEL_STD: [66.372, 63.468, 60.974]
+INPUT:
+  REA:
+    MEAN: [0.0, 0.0, 0.0]
+  DO_AUTOAUG: False
+SOLVER:
+  HEADS_LR_FACTOR: 1.0
+  BACKBONE_BN_LR_FACTOR: 1.0
+  CHECKPOINT_PERIOD: -1
+
+DATASETS:
+  NAMES: ("CMDM",)
+  TESTS: ("CMDM",)
+  KWARGS: 'data_name:duke+split_mode:id+split_ratio:1.0'
+  ROOT: "/home/dengpanfu/data"
+
+OUTPUT_DIR: "logs/cmdm/mgn_R50_cmdm_moco"

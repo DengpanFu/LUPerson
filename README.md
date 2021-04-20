@@ -25,36 +25,12 @@ For MGN with ResNet50:
 | Market1501 | 91.12/96.16 | 96.26/97.12 | [Market](https://drive.google.com/file/d/1AlXgY5bI0Lj7HClfNsl3RR8uPi2nq6Zn/view?usp=sharing) |
 | CUHK03-L | 74.54/85.84 | 74.64/82.86 | [CUHK03](https://drive.google.com/file/d/1BQ-zeEgZPud77OtliM9md8Z2lTz11HNh/view?usp=sharing)|
 
-<!-- <table>
-    <tr>
-        <td>Dataset</td>
-        <td>mAP</td>
-        <td>cmc1</td>
-        <td>model</td>
-    </tr>
-    <tr>
-        <td>MSMT17</td>
-        <td>66.06|79.93</td>
-        <td>85.08|87.63</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>DukeMTMC</td>
-        <td>82.27|91.70</td>
-        <td>90.35|92.82</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>Market</td>
-        <td>91.12|96.16</td>
-        <td>96.26|97.12</td>
-        <td>0</td>
-    </tr>
-    <tr>
-        <td>CUHK03-L</td>
-        <td>74.54|85.84</td>
-        <td>74.64|82.86</td>
-        <td> [CUHK03](https://drive.google.com/file/d/1BQ-zeEgZPud77OtliM9md8Z2lTz11HNh/view?usp=sharing) </td>
-    </tr>
-</table>
- -->
+These numbers are a little different from those reported in our paper, and most are slightly better.
+
+For MGN with ResNet101:
+|Dataset | mAP | cmc1 | path |
+|:------:|:---:|:----:|:----:|
+| MSMT17 | 68.41/81.12 | 86.28/88.27 | - |
+| DukeMTMC | 84.15/92.77 | 91.88/93.99 | - |
+| Market1501 | 91.86/96.21 | 96.56/97.03 | - |
+| CUHK03-L | 75.98/86.73 | 75.86/84.07 | - |

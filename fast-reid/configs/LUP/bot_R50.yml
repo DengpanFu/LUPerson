@@ -1,0 +1,33 @@
+_BASE_: "../Base-bagtricks.yml"
+
+MODEL:
+  BACKBONE:
+    WITH_IBN: False
+    EXTRA_BN: False
+  PIXEL_MEAN: [123.675, 116.280, 103.530]
+  PIXEL_STD: [58.395, 57.120, 57.375]
+  HEADS:
+    EMBEDDING_DIM: 128
+INPUT:
+  REA:
+    MEAN: [0.0, 0.0, 0.0]
+SOLVER:
+  HEADS_LR_FACTOR: 1.0
+  BACKBONE_BN_LR_FACTOR: 1.0
+  CHECKPOINT_PERIOD: -1
+  BASE_LR: 0.001
+  IMS_PER_BATCH: 256
+
+
+DATALOADER:
+  NUM_INSTANCE: 4
+  NUM_WORKERS: 4
+
+DATASETS:
+  NAMES: ("LUP",)
+  TESTS: ("CMDM",)
+  KWARGS: 'data_name:market+sub_name:lmdb_300_30'
+  ROOT: "/home/dengpanfu/data"
+  IS_LMDB: True
+
+OUTPUT_DIR: "logs/lup/agw_R50"
