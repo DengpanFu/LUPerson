@@ -20,9 +20,9 @@ For MGN with ResNet50:
 
 |Dataset | mAP | cmc1 | path |
 |:------:|:---:|:----:|:----:|
-| MSMT17 | 66.06/79.93 | 85.08/87.63 | - |
-| DukeMTMC | 82.27/91.70 | 90.35/92.82 | - |
-| Market1501 | 91.12/96.16 | 96.26/97.12 | - |
+| MSMT17 | 66.06/79.93 | 85.08/87.63 | [MSMT](https://drive.google.com/file/d/1bV27gwAsX8L3a3yhLoxAJueqrGmQTodV/view?usp=sharing) |
+| DukeMTMC | 82.27/91.70 | 90.35/92.82 | [Duke](https://drive.google.com/file/d/1leUezGnwFu8LKG2N8Ifd2Ii9utlJU5g4/view?usp=sharing) |
+| Market1501 | 91.12/96.16 | 96.26/97.12 | [Market](https://drive.google.com/file/d/1AlXgY5bI0Lj7HClfNsl3RR8uPi2nq6Zn/view?usp=sharing) |
 | CUHK03-L | 74.54/85.84 | 74.64/82.86 | [CUHK03](https://drive.google.com/file/d/1BQ-zeEgZPud77OtliM9md8Z2lTz11HNh/view?usp=sharing)|
 
 <!-- <table>
