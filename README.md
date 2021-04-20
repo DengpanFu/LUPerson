@@ -16,7 +16,7 @@ LUPerson is currently the largest unlabeled dataset for Person Re-identification
 | ResNet152 | [R152](https://drive.google.com/file/d/1nGGatER6--ZTHdcTryhWEqKRKYU-Mrl_/view?usp=sharing) |
 
 ## Finetuned Results
-For MGN:
+For MGN with ResNet50:
 <table>
     <tr>
         <td>Dataset</td>
@@ -26,26 +26,26 @@ For MGN:
     </tr>
     <tr>
         <td>MSMT17</td>
-        <td>0</td>
-        <td>0</td>
+        <td>66.06|79.93</td>
+        <td>85.08|87.63</td>
         <td>0</td>
     </tr>
     <tr>
         <td>DukeMTMC</td>
-        <td>0</td>
-        <td>0</td>
+        <td>82.27|91.70</td>
+        <td>90.35|92.82</td>
         <td>0</td>
     </tr>
     <tr>
         <td>Market</td>
-        <td>0</td>
-        <td>0</td>
+        <td>91.12|96.16</td>
+        <td>96.26|97.12</td>
         <td>0</td>
     </tr>
     <tr>
         <td>CUHK03-L</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
+        <td>74.54|85.84</td>
+        <td>74.64|82.86</td>
+        <td> [CUHK03](https://drive.google.com/file/d/1BQ-zeEgZPud77OtliM9md8Z2lTz11HNh/view?usp=sharing) </td>
     </tr>
 </table>
