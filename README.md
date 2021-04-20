@@ -34,3 +34,5 @@ For MGN with ResNet101:
 | DukeMTMC | 84.15/92.77 | 91.88/93.99 | - |
 | Market1501 | 91.86/96.21 | 96.56/97.03 | - |
 | CUHK03-L | 75.98/86.73 | 75.86/84.07 | - |
+
+**The numbers are in the format of `without RR`/ `with RR`**

@@ -1,1 +1,5 @@
-# Fast ReID with modification for training large dataset with noisy labels.
+# Fast ReID with modification our finetuning tasks.
+
+## Dataset
+We reorganized the data structure, in order to do experiments with ``small-scale`` and ``few-shot`` setting.
+
