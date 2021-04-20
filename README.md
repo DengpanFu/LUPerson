@@ -6,10 +6,14 @@ The repository is for our CVPR2021 paper [Unsupervised Pre-training for Person R
 ## LUPerson Dataset
 LUPerson is currently the largest unlabeled dataset for Person Re-identification, which is used for Unsupervised Pre-training. LUPerson consists of 4M images of over 200K identities and covers a much diverse range of capturing environments. 
 
-** To Be Added **
+**To Be Added**
 
 ## Pre-trained Models
-
+| Model | path |
+| :------: | :------: |
+| ResNet50 | [R50](https://drive.google.com/file/d/1pFyAdt9BOZCtzaLiE-W3CsX_kgWABKK6/view?usp=sharing) |
+| ResNet101 | [R101](https://drive.google.com/file/d/1Ckn0iVtx-IhGQackRECoMR7IVVr4FC5h/view?usp=sharing) |
+| ResNet152 | [R152](https://drive.google.com/file/d/1nGGatER6--ZTHdcTryhWEqKRKYU-Mrl_/view?usp=sharing) |
 
 ## Finetuned Results
 For MGN:
