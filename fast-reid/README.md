@@ -1,5 +1,5 @@
 # Fast ReID with modification our finetuning tasks.
-We modify the code from [fast-reid](https://github.com/JDAI-CV/fast-reid) with commits on 10/9/2020(nearby)
+We modify the code from [fast-reid](https://github.com/JDAI-CV/fast-reid) with commits on 10/9/2020(nearby). Please follow [fast-reid](https://github.com/JDAI-CV/fast-reid)'s instruction to install fast-reid.
 
 ## Dataset
 We reorganized the data structure, in order to do experiments with ``small-scale`` and ``few-shot`` setting.
