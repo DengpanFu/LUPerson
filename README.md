@@ -1,5 +1,5 @@
 # LUPerson
-Unsupervised Pre-training for Person Re-identification (LUPerson)
+Unsupervised Pre-training for Person Re-identification (LUPerson).
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unsupervised-pre-training-for-person-re/person-re-identification-on-msmt17)](https://paperswithcode.com/sota/person-re-identification-on-msmt17?p=unsupervised-pre-training-for-person-re)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unsupervised-pre-training-for-person-re/person-re-identification-on-dukemtmc-reid)](https://paperswithcode.com/sota/person-re-identification-on-dukemtmc-reid?p=unsupervised-pre-training-for-person-re)
@@ -11,7 +11,7 @@ The repository is for our CVPR2021 paper [Unsupervised Pre-training for Person R
 ## LUPerson Dataset
 LUPerson is currently the largest unlabeled dataset for Person Re-identification, which is used for Unsupervised Pre-training. LUPerson consists of 4M images of over 200K identities and covers a much diverse range of capturing environments. 
 
-**Details can be found at ./LUP**
+**Details can be found at ./LUP**.
 
 ## Pre-trained Models
 | Model | path |
@@ -40,7 +40,7 @@ For MGN with ResNet101:
 | Market1501 | 91.86/96.21 | 96.56/97.03 | - |
 | CUHK03-L | 75.98/86.73 | 75.86/84.07 | - |
 
-**The numbers are in the format of `without RR`/`with RR`**
+**The numbers are in the format of `without RR`/`with RR`**.
 
 
 ## Citation
