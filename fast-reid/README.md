@@ -59,6 +59,7 @@ CUDA_VISIBLE_DEVICES=${GPUS} python tools/train_net.py --num-gpus 4 \
 ```
 
 ## Test
+Suppose you have downloaded our finetuned models or you have finetuned your own models, and put them at `your_finetuned_model_dir`.
 ```shelll
 DATASET=market
 PATH_TO_CHECKPOINT_FILE='your_finetuned_model_dir/market.pth'
