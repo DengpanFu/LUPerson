@@ -10,6 +10,7 @@ All detection results can be found at [dets.pkl](https://drive.google.com/file/d
 ```
 python download.py -f ${YOUR_VIDEO_NAME_FILE_DIR}/vname.txt -s ${YOUR_VIDEO_DIR}
 ```
+[youtube-dl](https://github.com/ytdl-org/youtube-dl) is needed.
 
 ## Extract images from raw videos and their detections
 ```
@@ -20,3 +21,5 @@ python extract.py -v ${YOUR_VIDEO_DIR} -d ${DETECTION_DIR} -s ${SAVE_DIR}
 ```
 python convert_lmdb.py
 ```
+
+# Three is a third reconstruction at [Issue](https://github.com/DengpanFu/LUPerson/issues/8#issuecomment-1004611808), please refer to it.
