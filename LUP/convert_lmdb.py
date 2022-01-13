@@ -57,7 +57,7 @@ with open('keys.pkl', 'wb') as f:
 
 # env = lmdb.open(lmdb_dir, readonly=True, lock=False, readahead=False, meminit=False)
 # keys = pickle.load(open('keys.pkl', "rb"))
-# for key, path in zip(keys, paths):
+# for key in keys:
 #     with env.begin(write=False) as txn:
 #         buf = txn.get(key.encode('ascii'))
 #     img_flat = np.frombuffer(buf, dtype=np.uint8)
