@@ -55,4 +55,4 @@ If you find this code useful for your research, please cite our paper.
 ```
 
 ## News
-We have extend our `LUPerson` to `LUPerson-NL` with `Noisy Labels` which are generated from tracking algorithm, Please check for our CVPR22 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels](https://arxiv.org/abs/2203.16533). And LUPerson-NL dataset is available at https://github.com/DengpanFu/LUPerson-NL
+We extend our `LUPerson` to `LUPerson-NL` with `Noisy Labels` which are generated from tracking algorithm, Please check for our CVPR22 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels](https://arxiv.org/abs/2203.16533). And LUPerson-NL dataset is available at https://github.com/DengpanFu/LUPerson-NL
