@@ -56,3 +56,10 @@ If you find this code useful for your research, please cite our paper.
 
 ## News
 We extend our `LUPerson` to `LUPerson-NL` with `Noisy Labels` which are generated from tracking algorithm, Please check for our CVPR22 paper [Large-Scale Pre-training for Person Re-identification with Noisy Labels](https://arxiv.org/abs/2203.16533). And LUPerson-NL dataset is available at https://github.com/DengpanFu/LUPerson-NL
+
+
+## Third-party Usage
+`LUPerson` and `LUPerson-NL` are used by some work and have obtained very good performance.
+* [2021-03] [TransReID](https://openaccess.thecvf.com/content/ICCV2021/papers/He_TransReID_Transformer-Based_Object_Re-Identification_ICCV_2021_paper.pdf): https://github.com/damo-cv/TransReID
+* [2021-12] [TransReID-SSL](https://arxiv.org/pdf/2111.12084.pdf): https://github.com/damo-cv/TransReID-SSL
+* [2023-03] [SOLIDER](https://arxiv.org/abs/2303.17602): https://github.com/tinyvision/SOLIDER
