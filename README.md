@@ -9,7 +9,9 @@ Unsupervised Pre-training for Person Re-identification (LUPerson).
 The repository is for our CVPR2021 paper [Unsupervised Pre-training for Person Re-identification](https://arxiv.org/abs/2012.03753).
 
 ## LUPerson Dataset
-LUPerson is currently the largest unlabeled dataset for Person Re-identification, which is used for Unsupervised Pre-training. LUPerson consists of 4M images of over 200K identities and covers a much diverse range of capturing environments. 
+LUPerson is currently the largest unlabeled dataset for Person Re-identification, which is used for Unsupervised Pre-training. LUPerson consists of 4M images of over 200K identities and covers a much diverse range of capturing environments.
+
+**LUPerson can only be used for research, commercial usage is forbidden.**
 
 **Details can be found at ./LUP**.
 
